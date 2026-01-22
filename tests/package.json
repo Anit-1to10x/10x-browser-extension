@@ -1,0 +1,24 @@
+{
+  "name": "browser-extension-tests",
+  "version": "1.0.0",
+  "description": "Test suite for ClaudeKit Browser Extension WebSocket integration",
+  "scripts": {
+    "test": "node run-all-tests.js",
+    "test:connection": "node test-connection.js",
+    "test:linkedin": "node test-linkedin.js",
+    "test:instagram": "node test-instagram.js",
+    "test:twitter": "node test-twitter.js",
+    "test:google": "node test-google.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "keywords": [
+    "testing",
+    "websocket",
+    "browser-extension",
+    "automation"
+  ],
+  "author": "ClaudeKit",
+  "license": "MIT"
+}

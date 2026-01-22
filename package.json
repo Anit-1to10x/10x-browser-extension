@@ -1,0 +1,45 @@
+{
+  "name": "claudekit-browser-extension",
+  "version": "1.0.0",
+  "description": "Universal browser automation extension for Claude Code with WebSocket control",
+  "main": "background.js",
+  "scripts": {
+    "test": "cd tests && node run-all-tests.js",
+    "test:connection": "cd tests && node test-connection.js",
+    "test:linkedin": "cd tests && node test-linkedin.js",
+    "test:instagram": "cd tests && node test-instagram.js",
+    "test:twitter": "cd tests && node test-twitter.js",
+    "test:google": "cd tests && node test-google.js"
+  },
+  "keywords": [
+    "chrome-extension",
+    "browser-automation",
+    "websocket",
+    "claude-code",
+    "linkedin-automation",
+    "instagram-automation",
+    "twitter-automation",
+    "web-scraping",
+    "dom-manipulation",
+    "browser-control"
+  ],
+  "author": "Anit Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/claudekit-browser-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/claudekit-browser-extension/issues"
+  },
+  "homepage": "https://github.com/yourusername/claudekit-browser-extension#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "browser": {
+    "manifest_version": 3,
+    "minimum_chrome_version": "88"
+  }
+}
